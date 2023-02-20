@@ -1,0 +1,13 @@
+table, th, td{
+    border: solid black;
+    border-collapse: collapse;
+background-color: burlywood;
+}
+
+th{
+    background-color: blue;
+}
+
+.nombres{
+    width: 50%;
+}

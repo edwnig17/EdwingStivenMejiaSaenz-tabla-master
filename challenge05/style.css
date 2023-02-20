@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 90px;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: darkblue;
+color: white;
+}
+
+.nav-content a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    background-color: cornflowerblue;
+}
+.type-arreglo{
+ border-radius: 40px;
+ height: 35px;
+}

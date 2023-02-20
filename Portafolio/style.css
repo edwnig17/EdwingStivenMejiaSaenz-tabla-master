@@ -1,0 +1,123 @@
+/* 1 REM = 10px */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    color:rgb(7, 11, 0);
+    text-align: center;
+    font-size: 4rem;
+}
+
+span{
+    font-size: 2rem;
+    color: rgb(114, 114, 242);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: dodgerblue;
+}
+
+.navegacion-principal{
+   
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+@media (min-width:76.8rem){
+    .navegacion-principal{
+        padding: 1rem;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* @media (min-width:59rem){
+    body{
+        background-color: chartreuse;
+    }
+}
+
+@media (min-width:65rem){
+    body{
+        background-color: darkorange;
+    }
+} */
+
+.navegacion-principal a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: black;
+    color: white;
+}
+.hero{
+    background-image: url(img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    position: relative;
+}
+.contenido-hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0 0 0 /65%);
+}
+.boton{
+    color:white;
+    text-decoration: none;
+    background-color:rgb(186, 184, 182);
+    color: black;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+}
+
+.servicios{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    gap: 400px;
+}
+
+.contenido-servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido-servicios p,h2{
+    text-align: center;
+
+}

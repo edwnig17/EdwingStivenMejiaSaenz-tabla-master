@@ -1,0 +1,55 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 400px;
+    flex-wrap: wrap;
+}
+
+.item-1{
+    background-color: chartreuse;
+    color: aliceblue;
+    order: 8;
+}
+
+.item-2{
+    background-color: blue;
+    color: aliceblue;
+    order: 8;
+}
+.item-3{
+    background-color: red;
+    color: aliceblue;
+    flex-basis: 300px;
+}
+.item-4{
+    background-color: blueviolet;
+    color: aliceblue;
+    order: -1;
+}
+
+.item-5{
+    background-color: brown;
+    color: aliceblue;
+}
+.item-6{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+.item-7{
+    background-color: burlywood;
+    color: aliceblue;
+}
+.item-8{
+    background-color: yellow;
+    color: aliceblue;
+}
